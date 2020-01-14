@@ -1,0 +1,172 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="numbers"><button class="MyBtn">BINGO!</button></div>
+    <div class="box">
+    </div>
+</div>
+</body>
+<body>
+
+  <div class="row">
+    <!--------------------------- left-hand column -------------------------->
+    <div class="column small-12 medium-6">
+      
+      <div class="row">
+        <div class="column">
+
+          <h2>Last number called: <span id="js-last-num" class="last-num">Click to Draw</span></h2>
+
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="column">
+
+          <p>Draw History</p>
+          <ol id="js-history"></ol>
+
+        </div>
+        <div class="column">
+          
+          <input id="js-draw" type="button" value="Draw Number" autofocus>
+          <input id="js-reset" class="display-none" type="button" value="Reset">
+
+        </div>
+      </div>
+
+    </div>
+    <!--------------------------- end left-hand column ---------------------->
+    <!--------------------------- right-hand column ------------------------->
+    <div class="column small-12 medium-6">
+
+      <table id="bingo">
+        <tr>
+          <th>B</th>
+          <th>I</th>
+          <th>N</th>
+          <th>G</th>
+          <th>O</th>
+        </tr>
+        <tr>
+          <td id="B-1">1</td>
+          <td id="I-16">16</td>
+          <td id="N-31">31</td>
+          <td id="G-46">46</td>
+          <td id="O-61">61</td>
+        </tr>
+        <tr>
+          <td id="B-2">2</td>
+          <td id="I-17">17</td>
+          <td id="N-32">32</td>
+          <td id="G-47">47</td>
+          <td id="O-62">62</td>
+        </tr>
+        <tr>
+          <td id="B-3">3</td>
+          <td id="I-18">18</td>
+          <td id="N-33">33</td>
+          <td id="G-48">48</td>
+          <td id="O-63">63</td>
+        </tr>
+        <tr>
+          <td id="B-4">4</td>
+          <td id="I-19">19</td>
+          <td id="N-34">34</td>
+          <td id="G-49">49</td>
+          <td id="O-64">64</td>
+        </tr>
+        <tr>
+          <td id="B-5">5</td>
+          <td id="I-20">20</td>
+          <td id="N-35">35</td>
+          <td id="G-50">50</td>
+          <td id="O-65">65</td>
+        </tr>
+        <tr>
+          <td id="B-6">6</td>
+          <td id="I-21">21</td>
+          <td id="N-36">36</td>
+          <td id="G-51">51</td>
+          <td id="O-66">66</td>
+        </tr>
+        <tr>
+          <td id="B-7">7</td>
+          <td id="I-22">22</td>
+          <td id="N-37">37</td>
+          <td id="G-52">52</td>
+          <td id="O-67">67</td>
+        </tr>
+        <tr>
+          <td id="B-8">8</td>
+          <td id="I-23">23</td>
+          <td id="N-38">38</td>
+          <td id="G-53">53</td>
+          <td id="O-68">68</td>
+        </tr>
+        <tr>
+          <td id="B-9">9</td>
+          <td id="I-24">24</td>
+          <td id="N-39">39</td>
+          <td id="G-54">54</td>
+          <td id="O-69">69</td>
+        </tr>
+        <tr>
+          <td id="B-10">10</td>
+          <td id="I-25">25</td>
+          <td id="N-40">40</td>
+          <td id="G-55">55</td>
+          <td id="O-70">70</td>
+        </tr>
+        <tr>
+          <td id="B-11">11</td>
+          <td id="I-26">26</td>
+          <td id="N-41">41</td>
+          <td id="G-56">56</td>
+          <td id="O-71">71</td>
+        </tr>
+        <tr>
+          <td id="B-12">12</td>
+          <td id="I-27">27</td>
+          <td id="N-42">42</td>
+          <td id="G-57">57</td>
+          <td id="O-72">72</td>
+        </tr>
+        <tr>
+          <td id="B-13">13</td>
+          <td id="I-28">28</td>
+          <td id="N-43">43</td>
+          <td id="G-58">58</td>
+          <td id="O-73">73</td>
+        </tr>
+        <tr>
+          <td id="B-14">14</td>
+          <td id="I-29">29</td>
+          <td id="N-44">44</td>
+          <td id="G-59">59</td>
+          <td id="O-74">74</td>
+        </tr>
+        <tr>
+          <td id="B-15">15</td>
+          <td id="I-30">30</td>
+          <td id="N-45">45</td>
+          <td id="G-60">60</td>
+          <td id="O-75">75</td>
+        </tr>
+      </table>
+      
+    </div>
+    <!--------------------------- end right-hand column --------------------->
+  </div><!-- /row -->
+  
+<link rel="stylesheet" type="text/css" href="./css/bingo.css">
+<script src="./js/bingo.js" ></script>
+</body>
+
+</html>
